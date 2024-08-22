@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopSavvy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section with Navigation Menu -->
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="ShopSavvy Logo">
+            <span>ShopSavvy</span>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Custom</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+        </nav>
+
+        <!-- Search Bar and User Icon -->
+        <div class="header-right">
+            <div class="search-bar">
+                <input type="text" placeholder="Search ...">
+                <button type="button">
+                    <img src="search-icon.png" alt="Search">
+                </button>
+            </div>
+            <div id="auth-icon" class="auth-icon">
+                <img src="login-icon.png" alt="Login Icon">
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <div class="main-content" id="main-content">
+        <h1>Top Deals</h1>
+
+        <div class="deals-grid">
+            <div class="deal-item">
+                <img src="tv.jpg" alt="Smart TV 32 inch">
+                <h3>Smart TV 32 inch</h3>
+                <p>Full HD, LED Display</p>
+                <p class="price">$350.00</p>
+                <div class="brand">
+                    <img src="amazon-logo.png" alt="Amazon">
+                </div>
+            </div>
+            <div class="deal-item">
+                <img src="airpods.jpg" alt="AirPods">
+                <h3>AirPods</h3>
+                <p>boAt Airdopes 511</p>
+                <p class="price">$279.99</p>
+                <div class="brand">
+                    <img src="flipkart-logo.png" alt="Flipkart">
+                </div>
+            </div>
+            <!-- Repeat other products -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
