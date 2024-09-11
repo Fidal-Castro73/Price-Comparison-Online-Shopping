@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PriceComparePro</title>
+    <link rel="stylesheet" href="ic.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo">PriceComparePro</div>
+                <div class="nav-links">
+                    <h4>Home</h4>
+                    <h4>Price Comparison</h4>
+                    <h4>News</h4>
+                    <h4>Resources</h4>
+                    <h4>Contact Us</h4>
+                </div>
+                <div class="auth-buttons">
+                    <button class="login-btn">Login</button>
+                    <button class="get-started-btn">Get Started</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <img id="image" src="https://tse2.mm.bing.net/th?id=OIP.BOpJolzU8yt7G0qs9vpsEwHaJ4&pid=Api&P=0&h=180" alt="Comparison Image">
+        <section class="comparison-section">
+            <div class="comparison-container">
+                <h2>Website Selection</h2>
+                <div class="selection-form">
+                    <br>
+                    <label for="website1">Select Website 1</label>
+                    <select id="website1">
+                        <option value="amazon">Amazon</option>
+                        <option value="flipkart">Flipkart</option>
+                    </select>
+
+                    <label for="website2">Select Website 2</label>
+                    <select id="website2">
+                        <option value="amazon">Amazon</option>
+                        <option value="flipkart">Flipkart</option>
+                    </select>
+
+                    <button class="compare-btn" onclick="getComparison()">Get Comparison</button>
+                </div>
+            </div>
+
+            <!-- Comparison results will be injected here -->
+            <div id="comparison-results-container"></div>
+
+        </section>
+    </main>
+
+    <script src="ic.js"></script>
+</body>
+</html>
