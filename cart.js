@@ -23,7 +23,8 @@ function opentab(tabname) {
 // Function to update cart count 
 function updateCartCount() {
     const itemCount = document.querySelectorAll('.cart-item').length;
-    document.querySelector('.subtotal').textContent = ${itemCount} Items, Subtotal: ₹ updated-price-here;
+    document.querySelector('.subtotal').textContent = `${itemCount} Items, Subtotal: ₹ updated-price-here`;
+
 }
 
 // Delete button functionality with event delegation
