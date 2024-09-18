@@ -1,62 +1,100 @@
 /* General Styles */
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #f7f9fc;
-    color: #333;
 }
 
-h2, h4 {
-    margin: 0;
-}
-
-header {
-    background-color: #fff;
-    padding: 10px 20px;
-    border-bottom: 1px solid #e0e0e0;
-}
-
-.navbar {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     font-size: 24px;
     font-weight: bold;
+    color: #0078D7;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.navbar {
+    flex-grow: 1;
+    margin-left: 40px;
 }
 
 .nav-links {
     display: flex;
-    gap: 20px;
-}
-
-.nav-links h4 {
+    list-style: none;
+    padding: 0;
     margin: 0;
-    font-weight: normal;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 16px;
     color: #333;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-
-.nav-links h4:hover {
-    color: #00c6ff;
-}
-
-.auth-buttons {
-    display: flex;
-    gap: 10px;
-}
-
-.auth-buttons button {
     padding: 8px 15px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+    display: inline-block; /* Ensure the scale effect works properly */
+}
+
+.nav-links li a:hover {
+    background-color: #0078D7;
+    color: white;
+    border-color: #0078D7;
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.search-bar button {
+    background: none;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+}
+
+.search-bar button img {
+    width: 20px;
+    height: 20px;
+}
+
+.auth-icon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }
 
 .login-btn {
