@@ -242,3 +242,72 @@ main {
     margin-top: 20px; /* To add spacing between the form and the results */
 }
 
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+h2, h3 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+/* Comparison Section */
+.comparison-container {
+    width: 100%;
+}
+
+.comparison-table-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.table1, .table2, .table3, .table4 {
+    width: 48%; /* Ensures two tables fit in one row */
+    margin-bottom: 20px; /* Spacing between the rows */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Progress Bar Styling */
+.progress {
+    background-color: #f3f3f3;
+    border-radius: 13px;
+    padding: 3px;
+    width: 100%;
+}
+
+.progress-bar {
+    background-color: #00aaff;
+    height: 20px;
+    border-radius: 10px;
+    transition: width 0.4s ease;
+}
+
+/* Ensuring the container holds the layout properly */
+.comparison-table {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#comparison-results-container {
+    margin-top: 20px;
+    width: 100%;
+}
