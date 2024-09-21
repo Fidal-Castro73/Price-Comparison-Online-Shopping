@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0078D7;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.navbar {
+    flex-grow: 1;
+    margin-left: 40px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    padding: 8px 15px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+    display: inline-block; /* Ensure the scale effect works properly */
+}
+
+.nav-links li a:hover {
+    background-color: #0078D7;
+    color: white;
+    border-color: #0078D7;
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar button img {
+    width: 20px;
+    height: 20px;
+}
+
+.auth-icon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.tab-titles {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tab-links {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #555;
+    border-bottom: 2px solid transparent;
+}
+
+.tab-links:hover {
+    color: #111;
+}
+
+.active-link {
+    font-weight: bold;
+    border-bottom: 2px solid #f0c14b;
+    color: #111;
+}
+
+/* Tab Content Area */
+
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.tab-contents ul li span{
+    color: rgb(75, 183, 226);
+    font-size: 14px;
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+     display: block;
+}
+
+.active-tab {
+    display: block;
+}
+
+/* Cart Items Container */
+.cart-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cart-items {
+    margin-top: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.item-image {
+    width: 100px;
+    height: auto;
+}
+
+.item-details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.item-details h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.item-details p {
+    margin: 5px 0;
+    color: #888;
+}
+
+.discount {
+    color: #b12704;
+    font-weight: bold;
+}
+
+.delete-btn {
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #ddb347;
+}
+
+/* Filter Buttons */
+.filter-categories {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filter-categories button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.filter-categories button:hover {
+    background-color: #ddd;
+}
+
+/* Checkout Button */
+.checkout-btn {
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    padding: 10px 20px ;
+    cursor: pointer;
+    font-size: 16px;
+    float: right;
+    height: 50px;
+}
+
+.checkout-btn:hover {
+    background-color: #ddb347;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .cart-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .item-image {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .checkout-btn {
+        width: 100%;
+        text-align: center;
+    }
+}

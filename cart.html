@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <!-- Header Section with Navigation Menu -->
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="ShopSavvy Logo">
+            <span>pricee</span>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="ic.html">Custom</a></li>
+                <li><a href="">Settings</a></li>
+            </ul>
+        </nav>
+
+        <!-- Search Bar and User Icon -->
+        <div class="header-right">
+            <div class="search-bar">
+                <input type="text" placeholder="Search ...">
+                <button type="button">
+                    <img src="search.png" alt="Search">
+                </button>
+            </div>
+            <div id="auth-icon" class="auth-icon">
+                <button>login</button>
+            </div>
+        </div>
+    </header>
+    <div class="cart-container">
+        <h1>Your Items</h1>
+        
+        <!-- Tab Titles -->
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('awaiting')">Awaiting</p>
+            <p class="tab-links" onclick="opentab('notified')">Notified</p>
+            <button class="checkout-btn">Proceed to Buy</button>
+        </div>
+
+
+        <!-- Filter Categories -->
+        <div class="filter-categories">
+            <button>Airpods(1)</button>
+            <button>T-Shirt(1)</button>
+            <button>Mice (1)</button>
+            <button>Laptops (1)</button>
+        </div>
+
+        <!-- Cart Items - Awaiting Section -->
+        <div class="tab-contents active-tab" id="awaiting">
+            <div class="cart-items">
+                <!-- Item 1 -->
+                <div class="cart-item" id="awaiting">
+                    <img src="https://www.apple.com/v/airpods-3rd-generation/f/images/overview/value-props/battery_startframe__1ruivb5dm4ie_xlarge.jpg" alt="Earphones" class="item-image">
+                    <div class="item-details">
+                        <h2>Apple AirPods(3rd Generation) IPX4-rated sweat and water resistance</h2>
+                        <p>Currently unavailable.</p>
+                        <button class="delete-btn">Delete</button>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="cart-item" id="awaiting">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCAZtBvssAXkMimsq5NHhTIiK1WFEDd5EImg&s" alt="Mouse" class="item-image">
+                    <div class="item-details">
+                        <h2>ZEBRONICS Zeb-Dash Plus 2.4GHz Wireless Mouse</h2>
+                        <p><span class="discount">₹249.00</span></p>
+                        <button class="delete-btn">Delete</button>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="cart-item" id="awaiting">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZny5GGdcaksnf_tJjfnMRlDxQlb3FgWNzUg&s" alt="T-Shirt" class="item-image">
+                    <div class="item-details">
+                        <h2>Men's Classic Fit Crew Neck T-Shirt soft cotton relaxed fit</h2>
+                        <p>₹619.00</p>
+                        <button class="delete-btn">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cart Items - Notified Section -->
+        <div class="tab-contents" id="notified">
+            <div class="cart-items" id="notified">
+                <!-- Same Items as Awaiting for now -->
+                <div class="cart-item">
+                    <img src="https://www.apple.com/v/airpods-3rd-generation/f/images/overview/value-props/battery_startframe__1ruivb5dm4ie_xlarge.jpg" alt="Earphones" class="item-image">
+                    <div class="item-details">
+                        <h2>Apple AirPods(3rd Generation) IPX4-rated sweat and water resistance</h2>
+                        <p>Currently unavailable.</p>
+                        <button class="delete-btn">Delete</button>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="cart-item" id="notified">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCAZtBvssAXkMimsq5NHhTIiK1WFEDd5EImg&s" alt="Mouse" class="item-image">
+                    <div class="item-details">
+                        <h2>ZEBRONICS Zeb-Dash Plus 2.4GHz Wireless Mouse</h2>
+                        <p><span class="discount">₹249.00</span></p>
+                        <button class="delete-btn">Delete</button>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="cart-item" id="notified">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZny5GGdcaksnf_tJjfnMRlDxQlb3FgWNzUg&s" alt="T-Shirt" class="item-image">
+                    <div class="item-details">
+                        <h2>Men's Classic Fit Crew Neck T-Shirt soft cotton relaxed fit</h2>
+                        <p>₹619.00</p>
+                        <button class="delete-btn">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
