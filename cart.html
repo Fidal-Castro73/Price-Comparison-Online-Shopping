@@ -32,9 +32,11 @@
                     <img src="search.png" alt="Search">
                 </button>
             </div>
-            <div id="auth-icon" class="auth-icon">
+           
+            <div id="auth-icon" class="auth-icon" >
                 <button>login</button>
             </div>
+            
         </div>
     </header>
     <div class="cart-container">
@@ -42,8 +44,8 @@
         
         
         <div class="tab-titles">
-            <p class="tab-links active-link" onclick="opentab('awaiting')">Awaiting</p>
-            <p class="tab-links" onclick="opentab('notified')">Notified</p>
+            <p class="tab-links active-link" onclick="opentab(event,'awaiting')">Awaiting</p>
+            <p class="tab-links" onclick="opentab(event,'notified')">Notified</p>
             <button class="checkout-btn">Proceed to Buy</button>
         </div>
 
@@ -127,6 +129,6 @@
         </div>
     </div>
 
-    <script src="scripts.js"></script>
+    <script src="cart.js"></script>
 </body>
 </html>
