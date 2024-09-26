@@ -10,7 +10,7 @@
     <header class="header">
         <!-- Logo Section -->
         <div class="logo">
-            <img src="logo.png" alt="ShopSavvy Logo">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Search">
             <span>pricee</span>
         </div>
     
@@ -30,7 +30,7 @@
             <div class="search-bar">
                 <input type="text" placeholder="Search ...">
                 <button type="button">
-                    <img src="search.png" alt="Search">
+                    <img src="{{ url_for('static', filename='images/search.png') }}" alt="Search">
                 </button>
             </div>
             <div id="auth-icon" class="auth-icon">
@@ -45,15 +45,17 @@
         <div class="deals-grid">
             {% for product in products %}
                 <div class="deal-item">
-                    <img src="{{ product['image_url'] }}" alt="{{ product['product_name'] }}">
-                    <h3>{{ product.title }}</h3>
+                    <a href="{{ url_for('product') }}" class="product-link">
+                        <img src="{{ product['image_url'] }}" alt="{{ product['title'] }}">
+                        <h3>{{ product.title }}</h3>
+                    </a>
                     <h3>{{ product['product_name'] }}</h3>
                     <p>{{ product['description'] }}</p>
                     <p class="review">{{ product['review'] }}</p>
                     <p class="price">{{ product['price'] }}</p>
                     <div class="brand">
                         {% if product.source == 'Flipkart' %}
-                            <img src="/static/flipkart-logo.png" alt="Flipkart Logo" class="logo-small">
+                        <img src="{{ url_for('static', filename='images/flipkart-logo.png') }}" alt="Search" class="logo-small">
                             <span><strong>Flipkart</strong></span>
                         {% else %}
                             <img src="/static/reliance-digital-logo.png" alt="Reliance Digital Logo" class="logo-small">

@@ -156,12 +156,25 @@ body {
 }
 
 .logo-small {
-    width: 30px;
-    height: 30px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%; /* Make the logo circular */
     margin-right: 10px;
 }
 
 .brand span {
     font-weight: bold; /* Make the text bold */
+}
+
+/* Style for the product links */
+.product-link {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Inherits the text color of the parent element */
+    font-weight: normal; /* Keeps the text in normal weight */
+}
+
+/* Optionally, change the style on hover */
+.product-link:hover {
+    color: #0078D7; /* Change to your preferred color on hover */
+    text-decoration: underline; /* Optionally, show underline on hover */
 }

@@ -14,7 +14,7 @@ document.getElementById('auth-icon').addEventListener('click', function() {
 
 // Sample product data with corresponding HTML pages
 const products = [
-    { name: 'Smart TV 32 inch', page: 'product.html' },
+    { name: 'apple iphone 15', page: 'product.html' },
     { name: 'boAt Airdopes 511', page: 'airdopes.html' },
     { name: 'Men\'s Hawaiian Shirts', page: 'shirt.html' },
     { name: 'ASIAN Men\'s Wonder-13 Shoes', page: 'shoes.html' }

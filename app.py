@@ -15,6 +15,9 @@ def custom():
 def home():
     return render_template('index.html')
 
+@app.route('/product')
+def product():
+    return render_template('product.html')
 
 @app.route('/')
 def index():
@@ -68,4 +71,4 @@ def index():
     return render_template('index.html', products=unique_products.values())
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True)  
