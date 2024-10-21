@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopSavvy</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header class="header">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Search">
+            <span>pricee</span>
+        </div>
+        <!-- Navigation Menu -->
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('cart') }}">Cart</a></li>
+                <li><a href="{{ url_for('custom') }}">Custom</a></li>
+                
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    
+        <!-- Search Bar and Login Icon -->
+        <div class="header-right">
+            <div class="search-bar">
+                <input type="text" placeholder="Search ...">
+                <button type="button">
+                    <img src="{{ url_for('static', filename='images/search.png') }}" alt="Search">
+                </button>
+            </div>
+            <div id="auth-icon" class="auth-icon">
+                <button>login</button>
+            </div>
+        </div>
+    </header>
+    
+    <div class="main-content" id="main-content">
+        <h1>Top Deals</h1>
+
+        <div class="deals-grid">
+            {% for product in products %}
+                <div class="deal-item">
+                    <a href="{{ url_for('product') }}" class="product-link">
+                        <img src="{{ product['image_url'] }}" alt="{{ product['title'] }}">
+                        <h3>{{ product.title }}</h3>
+                    </a>
+                    <h3>{{ product['product_name'] }}</h3>
+                    <p>{{ product['description'] }}</p>
+                    <p class="review">{{ product['review'] }}</p>
+                    <p class="price">{{ product['price'] }}</p>
+                    <div class="brand">
+                        {% if product.source == 'Flipkart' %}
+                        <img src="{{ url_for('static', filename='images/flipkart-logo.png') }}" alt="Search" class="logo-small">
+                            <span><strong>Flipkart</strong></span>
+                        {% else %}
+                            <img src="/static/reliance-digital-logo.png" alt="Reliance Digital Logo" class="logo-small">
+                            <span><strong>Reliance Digital</strong></span>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
