@@ -223,23 +223,23 @@ const products = [
     {
         id: "boat-rockerz-450-pro",
         "name": "boAt Rockerz 450 Pro",
-        "image": "https://m.media-amazon.com/images/I/71fV36WVNsL._SX300_SY300_QL70_FMwebp_.jpg",
+        "image": "https://m.media-amazon.com/images/I/61jlFEwSt+L._SY355_.jpg",
         "features": "Upto 70 Hours Playback, 40mm Drivers",
         "webstores": [
-            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹2,200", "discount": "10%", "delivery": "₹0", "total": "₹2,200", "link": "https://www.amazon.in/boat-rockerz-450-pro/p/dummy-link1" },
-            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹2,235", "discount": "11%", "delivery": "₹0", "total": "₹2,235", "link": "https://www.flipkart.com/boat-rockerz-450-pro/p/dummy-link1" },
-            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹2,180", "discount": "12%", "delivery": "₹0", "total": "₹2,180", "link": "https://www.meesho.com/boat-rockerz-450-pro/p/dummy-link1" },
-            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹2,250", "discount": "9%", "delivery": "₹50", "total": "₹2,300", "link": "https://www.myntra.com/boat-rockerz-450-pro/p/dummy-link1" }
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹2,200", "discount": "10%", "delivery": "₹0", "total": "₹2,200", "link": "https://amzn.in/d/bihH0Z1" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹2,235", "discount": "11%", "delivery": "₹0", "total": "₹2,235", "link": "https://www.flipkart.com/boat-rockerz-450-pro-upto-70-hours-playback-bluetooth-headset/p/itm61f7284f7fdff" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹2,180", "discount": "12%", "delivery": "₹0", "total": "₹2,180", "link": "https://www.meesho.com/boat-rockerz-450-pro-bluetooth-headphones/p/28y0em?srsltid=AfmBOornQM5oQxq140FasQKVMb3beiUZ4lKrPz2Z0M0AOKKKBjreP4Zs" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹2,250", "discount": "9%", "delivery": "₹50", "total": "₹2,300", "link": "https://www.myntra.com/headphones/boat/boat-rockerz-450-pro-m-bluetooth-on-ear-headphone-with-mic-black/14150500/buy" }
         ]
     },
     {
         id: "sony-wh-ch520",
         "name": "Sony WH-CH520",
-        "image": "https://m.media-amazon.com/images/I/71fV36WVNsL._SX300_SY300_QL70_FMwebp_.jpg",
+        "image": "https://m.media-amazon.com/images/I/318RvHnDwHL._SX300_SY300_QL70_FMwebp_.jpg",
         "features": "50 Hours Playtime, DSEE Upscale",
         "webstores": [
-            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹4,250", "discount": "7%", "delivery": "₹0", "total": "₹4,250", "link": "https://www.amazon.in/sony-wh-ch520/p/dummy-link2" },
-            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹4,269", "discount": "7%", "delivery": "₹0", "total": "₹4,269", "link": "https://www.flipkart.com/sony-wh-ch520/p/dummy-link2" },
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹4,250", "discount": "7%", "delivery": "₹0", "total": "₹4,250", "link": "https://amzn.in/d/eFL8gT8" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹4,269", "discount": "7%", "delivery": "₹0", "total": "₹4,269", "link": "https://www.flipkart.com/sony-wh-ch520-50-hrs-playtime-dsee-upscale-multipoint-connection-dual-pairing-bluetooth/p/itm29e4c2b8a0883" },
             { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹4,180", "discount": "8%", "delivery": "₹0", "total": "₹4,180", "link": "https://www.meesho.com/sony-wh-ch520/p/dummy-link2" },
             { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹4,300", "discount": "5%", "delivery": "₹50", "total": "₹4,350", "link": "https://www.myntra.com/sony-wh-ch520/p/dummy-link2" }
         ]
@@ -247,83 +247,83 @@ const products = [
     {
         id: "jbl-tune-520-bt",
         "name": "JBL Tune 520 BT",
-        "image": "https://m.media-amazon.com/images/I/71fV36WVNsL._SX300_SY300_QL70_FMwebp_.jpg",
+        "image": "https://m.media-amazon.com/images/I/41j9J1vnovL._SX300_SY300_QL70_FMwebp_.jpg",
         "features": "Pure Bass, Multi-Connect",
         "webstores": [
-            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹3,999", "discount": "15%", "delivery": "₹0", "total": "₹3,999", "link": "https://www.amazon.in/jbl-tune-520-bt/p/dummy-link3" },
-            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹3,950", "discount": "16%", "delivery": "₹0", "total": "₹3,950", "link": "https://www.flipkart.com/jbl-tune-520-bt/p/dummy-link3" },
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹3,999", "discount": "15%", "delivery": "₹0", "total": "₹3,999", "link": "https://amzn.in/d/2OJdnpw" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹3,950", "discount": "16%", "delivery": "₹0", "total": "₹3,950", "link": "https://www.flipkart.com/jbl-tune-520-bt-57hr-playtime-pure-bass-multi-connect-bluetooth-headset-5-3le-headset/p/itmb401dd03aaa49?pid=ACCGQZVZ2MH4QDHZ" },
             { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹3,900", "discount": "17%", "delivery": "₹0", "total": "₹3,900", "link": "https://www.meesho.com/jbl-tune-520-bt/p/dummy-link3" },
-            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹4,000", "discount": "14%", "delivery": "₹50", "total": "₹4,050", "link": "https://www.myntra.com/jbl-tune-520-bt/p/dummy-link3" }
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹4,000", "discount": "14%", "delivery": "₹50", "total": "₹4,050", "link": "https://www.myntra.com/headphones/jbl/jbl-black-tune-520-bt-57hr-playtime-pure-bass-bt-53le-multi-connect-on-ear-bt-headset/25958288/buy" }
         ]
     },
     {
         id: "noise-buds-vs102",
         "name": "Noise Buds VS102",
-        "image": "https://m.media-amazon.com/images/I/71fV36WVNsL._SX300_SY300_QL70_FMwebp_.jpg",
+        "image": "https://m.media-amazon.com/images/I/41tPHnezJTL._SY355_.jpg",
         "features": "50 Hours Playtime, IPX5 Water Resistance",
         "webstores": [
-            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹1,099", "discount": "45%", "delivery": "₹0", "total": "₹1,099", "link": "https://www.amazon.in/noise-buds-vs102/p/dummy-link4" },
-            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹1,149", "discount": "40%", "delivery": "₹0", "total": "₹1,149", "link": "https://www.flipkart.com/noise-buds-vs102/p/dummy-link4" },
-            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹1,099", "discount": "45%", "delivery": "₹0", "total": "₹1,099", "link": "https://www.meesho.com/noise-buds-vs102/p/dummy-link4" },
-            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹1,200", "discount": "38%", "delivery": "₹50", "total": "₹1,250", "link": "https://www.myntra.com/noise-buds-vs102/p/dummy-link4" }
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹1,099", "discount": "45%", "delivery": "₹0", "total": "₹1,099", "link": "https://amzn.in/d/4cZFKNX" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹1,149", "discount": "40%", "delivery": "₹0", "total": "₹1,149", "link": "https://www.flipkart.com/noise-buds-vs102-50-hrs-playtime-11mm-driver-ipx5-unique-flybird-design-bluetooth-headset/p/itm6a32c17afbbe5" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹1,099", "discount": "45%", "delivery": "₹0", "total": "₹1,099", "link": "https://www.meesho.com/noise-buds-vs-102-no-bluetooth-only-cover-blue-shock-proof-silicon-case/p/24ivw4?srsltid=AfmBOopzdnltmNQFDbGQ5A8ek5g1nYf8jatD91WvibTZJP07DsITelwd" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹1,200", "discount": "38%", "delivery": "₹50", "total": "₹1,250", "link": "https://www.myntra.com/headphones/noise/noise-buds-vs102-with-50hrs-playtime-instacharge-and-11mm-driver-truly-wireless-earbuds-/15622444/buy" }
         ]
     },
     {
         id: "boult-astra",
         "name": "Boult Astra",
-        "image": "https://m.media-amazon.com/images/I/71fV36WVNsL._SX300_SY300_QL70_FMwebp_.jpg",
+        "image": "https://m.media-amazon.com/images/I/71aBAPCVc8L._SX522_.jpg",
         "features": "Quad Mic ENC, 48 Hours Battery, Low Latency",
         "webstores": [
-            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹1,499", "discount": "57%", "delivery": "₹0", "total": "₹1,499", "link": "https://www.amazon.in/boult-astra/p/dummy-link5" },
-            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹1,550", "discount": "55%", "delivery": "₹0", "total": "₹1,550", "link": "https://www.flipkart.com/boult-astra/p/dummy-link5" },
-            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹1,480", "discount": "58%", "delivery": "₹0", "total": "₹1,480", "link": "https://www.meesho.com/boult-astra/p/dummy-link5" },
-            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹1,600", "discount": "54%", "delivery": "₹50", "total": "₹1,650", "link": "https://www.myntra.com/boult-astra/p/dummy-link5" }
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹1,499", "discount": "57%", "delivery": "₹0", "total": "₹1,499", "link": "https://amzn.in/d/9zWHM0M" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹1,550", "discount": "55%", "delivery": "₹0", "total": "₹1,550", "link": "https://www.flipkart.com/boult-audio-astra-quad-mic-enc-48hrs-battery-low-latency-gaming-made-india-5-3v-bluetooth-headset/p/itme9b78ae82a613?pid=ACCGS2VSYQFQ4HTZ&lid=LSTACCGS2VSYQFQ4HTZF0TSMT&marketplace=FLIPKART&store=0pm%2Ffcn%2F821" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹1,480", "discount": "58%", "delivery": "₹0", "total": "₹1,480", "link": "https://www.meesho.com/boult-astra-neo-70hrs-playtime-4-mic-enc-bt-54-40ms-low-latency-grip-case-bluetooth-black-true-wireless/p/7cd9ot?srsltid=AfmBOoqQOqKrcvyTL4UyGNMlV0xlporkhsHPmUME-25pOIHmJvIrUbHL" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹1,600", "discount": "54%", "delivery": "₹50", "total": "₹1,650", "link": "https://www.myntra.com/headphones/boultaudio/boult-audio-astra-earbuds-with-quad-mic-enc--48-hrs-battery/29218804/buy" }
         ]
     },
     {
         id: "oneplus-bullets-wireless-z2",
         "name": "OnePlus Bullets Wireless Z2",
-        "image": "https://m.media-amazon.com/images/I/71fV36WVNsL._SX300_SY300_QL70_FMwebp_.jpg",
+        "image": "https://m.media-amazon.com/images/I/51UhwaQXCpL._SX522_.jpg",
         "features": "Fast Charging, High Bass",
         "webstores": [
-            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹1,799", "discount": "30%", "delivery": "₹0", "total": "₹1,799", "link": "https://www.amazon.in/oneplus-bullets-wireless-z2/p/dummy-link6" },
-            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹1,850", "discount": "28%", "delivery": "₹0", "total": "₹1,850", "link": "https://www.flipkart.com/oneplus-bullets-wireless-z2/p/dummy-link6" },
-            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹1,780", "discount": "32%", "delivery": "₹0", "total": "₹1,780", "link": "https://www.meesho.com/oneplus-bullets-wireless-z2/p/dummy-link6" },
-            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹1,850", "discount": "28%", "delivery": "₹50", "total": "₹1,900", "link": "https://www.myntra.com/oneplus-bullets-wireless-z2/p/dummy-link6" }
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹1,799", "discount": "30%", "delivery": "₹0", "total": "₹1,799", "link": "https://amzn.in/d/6JdjSoY" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹1,850", "discount": "28%", "delivery": "₹0", "total": "₹1,850", "link": "https://www.flipkart.com/oneplus-bullets-wireless-z2-fast-charge-30-hrs-battery-life-earphones-mic-bluetooth-headset/p/itm1b9cd98911a2a" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹1,780", "discount": "32%", "delivery": "₹0", "total": "₹1,780", "link": "https://www.meesho.com/oneplus-bullets-z2-bluetooth-wireless-in-ear-earphones-with-mic-bombastic-bass-124-mm-drivers-10-mins-charge-20-hrs-music-30-hrs-battery-life-ip55-dust-and-water-resistant-magico-black/p/2x5jbw?" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹1,850", "discount": "28%", "delivery": "₹50", "total": "₹1,900", "link": "https://www.myntra.com/headphones/oneplus/oneplus-bullets-wireless-z2-with-45db-hybrid-anc--28-hours-playback-neckband-earphones/24085338/buy" }
         ]
     },
     {
         id: "cmf-by-nothing-buds",
         "name": "CMF by Nothing Buds",
-        "image": "https://m.media-amazon.com/images/I/71fV36WVNsL._SX300_SY300_QL70_FMwebp_.jpg",
+        "image": "https://m.media-amazon.com/images/I/61myoZJJ1FL._SX522_.jpg",
         "features": "42dB ANC, Ultra Bass Technology",
         "webstores": [
-            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹1,999", "discount": "33%", "delivery": "₹0", "total": "₹1,999", "link": "https://www.amazon.in/cmf-by-nothing-buds/p/dummy-link7" },
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹1,999", "discount": "33%", "delivery": "₹0", "total": "₹1,999", "link": "https://amzn.in/d/ipC6zWN" },
             { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹2,050", "discount": "31%", "delivery": "₹0", "total": "₹2,050", "link": "https://www.flipkart.com/cmf-by-nothing-buds/p/dummy-link7" },
             { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹1,950", "discount": "35%", "delivery": "₹0", "total": "₹1,950", "link": "https://www.meesho.com/cmf-by-nothing-buds/p/dummy-link7" },
-            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹2,100", "discount": "30%", "delivery": "₹50", "total": "₹2,150", "link": "https://www.myntra.com/cmf-by-nothing-buds/p/dummy-link7" }
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹2,100", "discount": "30%", "delivery": "₹50", "total": "₹2,150", "link": "https://www.myntra.com/headphones/cmfbynothing/cmf-by-nothing-42-db-active-noise-cancellation-ultra-bass-technology-buds-/27909168/buy" }
         ]
     },
     {
         id: "boat-airdopes-161",
         "name": "boAt Airdopes 161",
-        "image": "https://m.media-amazon.com/images/I/71fV36WVNsL._SX300_SY300_QL70_FMwebp_.jpg",
+        "image": "https://m.media-amazon.com/images/I/415gjmPuNrL._SX522_.jpg",
         "features": "ASAP Charge, 40 Hours Playback",
         "webstores": [
-            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹899", "discount": "63%", "delivery": "₹0", "total": "₹899", "link": "https://www.amazon.in/boat-airdopes-161/p/dummy-link8" },
-            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹950", "discount": "60%", "delivery": "₹0", "total": "₹950", "link": "https://www.flipkart.com/boat-airdopes-161/p/dummy-link8" },
-            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹899", "discount": "63%", "delivery": "₹0", "total": "₹899", "link": "https://www.meesho.com/boat-airdopes-161/p/dummy-link8" },
-            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹1,000", "discount": "59%", "delivery": "₹50", "total": "₹1,050", "link": "https://www.myntra.com/boat-airdopes-161/p/dummy-link8" }
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹899", "discount": "63%", "delivery": "₹0", "total": "₹899", "link": "https://amzn.in/d/0V7w9Of" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹950", "discount": "60%", "delivery": "₹0", "total": "₹950", "link": "https://www.flipkart.com/boat-airdopes-161-40-hours-playback-asap-charge-10mm-drivers-bluetooth-headset/p/itm44896573d8f03?pid=ACCG6DS7Z2Z8SEAF" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹899", "discount": "63%", "delivery": "₹0", "total": "₹899", "link": "https://www.meesho.com/boat-airdopes-161/p/790sw1?srsltid=AfmBOoo2OzBuU6tih8uZNvZV5lK3e3gw2n5v_FQyBZPXDCcmNK7BppJ3" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹1,000", "discount": "59%", "delivery": "₹50", "total": "₹1,050", "link": "https://www.myntra.com/headphones/boat/boat-airdopes-161-anc-w-active-noise-cancellation-50h-playtime--beast-mode/30694183/buy" }
         ]
     },
     {
         id: "triggr-trinity-1",
         name: "Triggr Trinity 1",
-        image: "https://m.media-amazon.com/images/I/51-JzrnCZKL._SX679_.jpg",
+        image: "https://rukminim2.flixcart.com/image/850/1000/xif0q/headphone/1/m/e/-original-imah4fhrbbfvjpkj.jpeg?q=90&crop=false",
         features: "Wireless Over-Ear Headphones, Noise Cancellation, Bluetooth 5.4, 50 Hours Playback, USB Type-C Charging.",
         webstores: [
             { store: "Amazon", logo: "amazon-logo.png", price: "₹999", discount: "0%", delivery: "₹40", total: "₹1,039", link: "https://www.amazon.in/dp/example" },
-            { store: "Flipkart", logo: "flipkart-logo.png", price: "₹999", discount: "0%", delivery: "₹50", total: "₹1,049", link: "https://www.flipkart.com/triggr-trinity-1/p/example" },
+            { store: "Flipkart", logo: "flipkart-logo.png", price: "₹999", discount: "0%", delivery: "₹50", total: "₹1,049", link: "https://www.flipkart.com/triggr-trinity-1-bluetooth-headset/p/itm7fc55c9cfce90?pid=ACCH3CZ2VBGZGZNU&lid=LSTACCH3CZ2VBGZGZNUUOMHNG&marketplace=FLIPKART&cmpid=content_headphone_8965229628_gmc" },
             { store: "Meesho", logo: "meesho-logo.png", price: "₹1,099", discount: "0%", delivery: "₹0", total: "₹1,099", link: "https://www.meesho.com/triggr-trinity-1/p/example" },
             { store: "Myntra", logo: "myntra-logo.png", price: "₹1,199", discount: "10%", delivery: "₹50", total: "₹1,149", link: "https://www.myntra.com/triggr-trinity-1/p/example" }
         ]
@@ -331,23 +331,23 @@ const products = [
     {
         id: "realme-techlife-studio-h1",
         name: "realme TechLife Studio H1",
-        image: "https://m.media-amazon.com/images/I/example.jpg",
+        image: "https://m.media-amazon.com/images/I/715wH-KhfYL._SX679_.jpg",
         features: "Studio-Grade Sound, Bluetooth 5.3, Noise Cancellation, Over-Ear Design, USB-C Fast Charging, 45 Hours Battery.",
         webstores: [
-            { store: "Amazon", logo: "amazon-logo.png", price: "₹2,499", discount: "5%", delivery: "₹40", total: "₹2,539", link: "https://www.amazon.in/dp/example" },
-            { store: "Flipkart", logo: "flipkart-logo.png", price: "₹2,450", discount: "4%", delivery: "₹50", total: "₹2,500", link: "https://www.flipkart.com/realme-techlife-studio-h1/p/example" },
+            { store: "Amazon", logo: "amazon-logo.png", price: "₹2,499", discount: "5%", delivery: "₹40", total: "₹2,539", link: "https://amzn.in/d/eV7ObT1" },
+            { store: "Flipkart", logo: "flipkart-logo.png", price: "₹2,450", discount: "4%", delivery: "₹50", total: "₹2,500", link: "https://www.flipkart.com/realme-techlife-studio-h1-43db-anc-hi-res-audio-40mm-driver-70hrs-playback-bluetooth/p/itma28640c82a67f?pid=ACCH5FH5BJJ5B4SG&lid=LSTACCH5FH5BJJ5B4SG88VSTI&marketplace=FLIPKART&cmpid=content_headphone_8965229628_gmc" },
             { store: "Meesho", logo: "meesho-logo.png", price: "₹2,400", discount: "3%", delivery: "₹0", total: "₹2,400", link: "https://www.meesho.com/realme-techlife-studio-h1/p/example" },
-            { store: "Myntra", logo: "myntra-logo.png", price: "₹2,499", discount: "5%", delivery: "₹50", total: "₹2,549", link: "https://www.myntra.com/realme-techlife-studio-h1/p/example" }
+            { store: "Myntra", logo: "myntra-logo.png", price: "₹2,499", discount: "5%", delivery: "₹50", total: "₹2,549", link: "https://www.myntra.com/headphones/realme/realme-techlife-studio-true-wireless-over-ear-h1-headphones/31219471/buy" }
         ]
     },
     {
         "id": "apple-mac-mini-m4",
         "name": "Apple Mac Mini M4",
-        "image": "https://m.media-amazon.com/images/I/81dJ6z3yQ-L._SX679_.jpg",
+        "image": "https://m.media-amazon.com/images/I/61hpKVB9X2L._SX679_.jpg",
         "features": "Compact design, Apple M4 chip, 16GB RAM, 512GB SSD, macOS Sequoia.",
         "webstores": [
-            { "store": "Amazon", "price": "₹49,999", "discount": "5%", "delivery": "₹40", "total": "₹50,039", "link": "https://www.amazon.in/dp/example" },
-            { "store": "Flipkart", "price": "₹50,499", "discount": "4%", "delivery": "₹50", "total": "₹50,549", "link": "https://www.flipkart.com/apple-mac-mini-m4/p/example" },
+            { "store": "Amazon", "price": "₹49,999", "discount": "5%", "delivery": "₹40", "total": "₹50,039", "link": "https://amzn.in/d/7cjdQY1" },
+            { "store": "Flipkart", "price": "₹50,499", "discount": "4%", "delivery": "₹50", "total": "₹50,549", "link": "https://www.flipkart.com/apple-m1-chip-8-gb-ram-integrated-8-core-gpu-graphics-512-ssd-capacity-mac-os-big-sur-microtower/p/itm593548a959292" },
             { "store": "Meesho", "price": "₹48,999", "discount": "3%", "delivery": "₹0", "total": "₹48,999", "link": "https://www.meesho.com/apple-mac-mini-m4/p/example" },
             { "store": "Myntra", "price": "₹51,499", "discount": "2%", "delivery": "₹50", "total": "₹51,549", "link": "https://www.myntra.com/apple-mac-mini-m4/p/example" }
         ]
@@ -355,10 +355,10 @@ const products = [
     {
         "id": "hp-envy-desktop-te01",
         "name": "HP Envy Desktop TE01",
-        "image": "https://m.media-amazon.com/images/I/81tDaMUsXQL._SX679_.jpg",
+        "image": "https://m.media-amazon.com/images/I/51aQrHPnw6L._AC_SX355_.jpg",
         "features": "Intel Core i7, 16GB RAM, 1TB HDD + 256GB SSD, NVIDIA GTX 1650.",
         "webstores": [
-            { "store": "Amazon", "price": "₹72,999", "discount": "8%", "delivery": "₹50", "total": "₹73,049", "link": "https://www.amazon.in/dp/example" },
+            { "store": "Amazon", "price": "₹72,999", "discount": "8%", "delivery": "₹50", "total": "₹73,049", "link": "https://a.co/d/ibMCFS9" },
             { "store": "Flipkart", "price": "₹74,499", "discount": "7%", "delivery": "₹50", "total": "₹74,549", "link": "https://www.flipkart.com/hp-envy-desktop-te01/p/example" },
             { "store": "Meesho", "price": "₹71,499", "discount": "6%", "delivery": "₹0", "total": "₹71,499", "link": "https://www.meesho.com/hp-envy-desktop-te01/p/example" },
             { "store": "Myntra", "price": "₹75,499", "discount": "5%", "delivery": "₹50", "total": "₹75,549", "link": "https://www.myntra.com/hp-envy-desktop-te01/p/example" }
@@ -367,11 +367,11 @@ const products = [
     {
         "id": "dell-xps-desktop",
         "name": "Dell XPS Desktop",
-        "image": "https://m.media-amazon.com/images/I/81gtENvESFL._SX679_.jpg",
+        "image": "https://m.media-amazon.com/images/I/71YeA5dsEdL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
         "features": "12th Gen Intel Core i7, 32GB RAM, 1TB SSD, NVIDIA RTX 3060 Ti.",
         "webstores": [
-            { "store": "Amazon", "price": "₹1,24,999", "discount": "6%", "delivery": "₹40", "total": "₹1,25,039", "link": "https://www.amazon.in/dp/example" },
-            { "store": "Flipkart", "price": "₹1,25,999", "discount": "5%", "delivery": "₹50", "total": "₹1,26,049", "link": "https://www.flipkart.com/dell-xps-desktop/p/example" },
+            { "store": "Amazon", "price": "₹1,24,999", "discount": "6%", "delivery": "₹40", "total": "₹1,25,039", "link": "https://a.co/d/aruw86Y" },
+            { "store": "Flipkart", "price": "₹1,25,999", "discount": "5%", "delivery": "₹50", "total": "₹1,26,049", "link": "https://www.flipkart.com/q/dell-xps" },
             { "store": "Meesho", "price": "₹1,22,999", "discount": "4%", "delivery": "₹0", "total": "₹1,22,999", "link": "https://www.meesho.com/dell-xps-desktop/p/example" },
             { "store": "Myntra", "price": "₹1,26,499", "discount": "3%", "delivery": "₹50", "total": "₹1,26,549", "link": "https://www.myntra.com/dell-xps-desktop/p/example" }
         ]
@@ -379,11 +379,11 @@ const products = [
     {
         "id": "lenovo-ideacentre-5",
         "name": "Lenovo IdeaCentre 5",
-        "image": "https://m.media-amazon.com/images/I/81Sxq7o1UYL._SX679_.jpg",
+        "image": "https://m.media-amazon.com/images/I/71XY+Mk-dTL._AC_SY300_SX300_.jpg",
         "features": "AMD Ryzen 7, 16GB RAM, 512GB SSD, Radeon Graphics.",
         "webstores": [
-            { "store": "Amazon", "price": "₹64,999", "discount": "10%", "delivery": "₹50", "total": "₹65,049", "link": "https://www.amazon.in/dp/example" },
-            { "store": "Flipkart", "price": "₹66,499", "discount": "8%", "delivery": "₹50", "total": "₹66,549", "link": "https://www.flipkart.com/lenovo-ideacentre-5/p/example" },
+            { "store": "Amazon", "price": "₹64,999", "discount": "10%", "delivery": "₹50", "total": "₹65,049", "link": "https://www.amazon.com/Lenovo-IdeaCentre-Business-i5-10400T-Wireless/dp/B0BVGWNLMV" },
+            { "store": "Flipkart", "price": "₹66,499", "discount": "8%", "delivery": "₹50", "total": "₹66,549", "link": "https://www.flipkart.com/lenovo-ideacentre-gaming-5-amd-ryzen-5600g-8-gb-ram-nvidia-geforce-gtx-1660-graphics-512-ssd-capacity-windows-11-home-64-bit-6-graphics-memory-full-tower/p/itm3de36c2aaef97?pid=CPUGCCFUMZYUQ8HS&lid=LSTCPUGCCFUMZYUQ8HSKUVL9H&marketplace=FLIPKART&cmpid=content_cpu_8965229628_gmc" },
             { "store": "Meesho", "price": "₹63,999", "discount": "7%", "delivery": "₹0", "total": "₹63,999", "link": "https://www.meesho.com/lenovo-ideacentre-5/p/example" },
             { "store": "Myntra", "price": "₹67,499", "discount": "6%", "delivery": "₹50", "total": "₹67,549", "link": "https://www.myntra.com/lenovo-ideacentre-5/p/example" }
         ]
