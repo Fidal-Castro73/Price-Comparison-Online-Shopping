@@ -1,8 +1,20 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect,url_for
 import mysql.connector
+import subprocess
 
 app = Flask(__name__)
+@app.route('/update_data')
+def update_data():
+    try:
+        # Run the Selenium script (data.py) using subprocess
+        subprocess.run(['python', 'data.py'], check=True)
 
+        # Redirect back to the homepage to reflect updated data
+        return redirect(url_for('index'))
+
+    except Exception as e:
+        return f"An error occurred while updating data: {str(e)}"
+     
 @app.route('/cart')
 def cart():
     return render_template('cart.html')
