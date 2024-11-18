@@ -388,7 +388,140 @@ const products = [
             { "store": "Myntra", "price": "₹67,499", "discount": "6%", "delivery": "₹50", "total": "₹67,549", "link": "https://www.myntra.com/lenovo-ideacentre-5/p/example" }
         ]
     },
-];
+    {
+        id: "fluo-m-running-shoes-for-men",
+        "name": "Fluo M Running Shoes For Men",
+        "image": "https://m.media-amazon.com/images/I/819WiwyBE+L._SX695_.jpg",
+        "features": "High-quality running shoes for men.",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹1,727", "discount": "42%", "delivery": "₹0", "total": "₹1,727", "link": "https://www.amazon.in/Adidas-Synthetic-CORERACER-Running-Shoes/dp/B08BG5B678/" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹1,840", "discount": "53% off", "delivery": "₹0", "total": "₹1,840", "link": "https://www.flipkart.com/adidas-fluo-m-running-shoes-men/p/itmfhwpda5mug3zk" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹1,750", "discount": "40% off", "delivery": "₹0", "total": "₹1,750", "link": "https://www.meesho.com/fluo-m-running-shoes-for-men/p/xyz" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹1,780", "discount": "42% off", "delivery": "₹0", "total": "₹1,780", "link": "https://www.myntra.com/fluo-m-running-shoes-for-men/p/abc" }
+        ]
+    },
+    {
+        "id": "jack-jones-mens-solid-classic-fit-tshirt",
+        "name": "Jack & Jones Men's Solid Classic Fit T-Shirt",
+        "image": "https://m.media-amazon.com/images/I/517TS9aCUeL._SY741_.jpg",
+        "features": "Classic solid black T-shirt.",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹1,104", "discount": "15%", "delivery": "₹0", "total": "₹1,104", "link": "https://www.amazon.in/Jack-Jones-Classic-12261193-Jet-Black_Jet/dp/B0CNKJ6JK4/" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹1,498", "discount": "0%", "delivery": "₹0", "total": "₹1,498", "link": "https://www.flipkart.com/jack-jones-solid-men-round-neck-black-t-shirt/p/itmb144ad0271f13" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹1,550", "discount": "20% off", "delivery": "₹0", "total": "₹1,550", "link": "https://www.meesho.com/jack-jones-solid-classic-fit-t-shirt/p/xyz" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹1,560", "discount": "15% off", "delivery": "₹0", "total": "₹1,560", "link": "https://www.myntra.com/jack-jones-mens-solid-classic-fit-tshirt/p/abc" }
+        ]
+    },
+    {
+        "id": "puma-boys-polyester-standard-length-jacket",
+        "name": "Puma Boys Polyester Standard Length Jacket",
+        "image": "https://m.media-amazon.com/images/I/51+b4u7hGEL._SX679_.jpg",
+        "features": "Stylish varsity green jacket for boys.",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹1,199", "discount": "70%", "delivery": "₹0", "total": "₹1,199", "link": "https://www.amazon.in/Puma-Boys-Line-67277424_Varsity-Green_128/dp/B0BFXG3XTG/" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹1,199", "discount": "70% off", "delivery": "₹0", "total": "₹1,199", "link": "https://www.flipkart.com/puma-full-sleeve-printed-boys-jacket/p/itm945f4cabb30b8" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹1,220", "discount": "68% off", "delivery": "₹0", "total": "₹1,220", "link": "https://www.meesho.com/puma-boys-polyester-standard-length-jacket/p/xyz" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹1,250", "discount": "70% off", "delivery": "₹0", "total": "₹1,250", "link": "https://www.myntra.com/puma-boys-polyester-standard-length-jacket/p/abc" }
+        ]
+    },
+    {
+        "id": "tommy-hilfiger-mens-polo-slim-fit-shirt",
+        "name": "Tommy Hilfiger Men's Polo Slim Fit Shirt",
+        "image": "https://m.media-amazon.com/images/I/51VNzteXvjL._SX679_.jpg",
+        "features": "Premium slim fit polo shirt.",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹3,599", "discount": "0%", "delivery": "₹0", "total": "₹3,599", "link": "https://www.amazon.in/Tommy-Hilfiger-White-Cotton-T-Shirt/dp/B0D8LCST2M/" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹2,099", "discount": "30% off", "delivery": "₹0", "total": "₹2,099", "link": "https://www.flipkart.com/tommy-hilfiger-solid-men-polo-neck-white-t-shirt/p/itm84da909028a7b" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹2,120", "discount": "25% off", "delivery": "₹0", "total": "₹2,120", "link": "https://www.meesho.com/tommy-hilfiger-mens-polo-slim-fit-shirt/p/xyz" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹2,150", "discount": "25% off", "delivery": "₹0", "total": "₹2,150", "link": "https://www.myntra.com/tommy-hilfiger-mens-polo-slim-fit-shirt/p/abc" }
+        ]
+    },
+
+     {
+        "id": "casio-g-shock-ga-2110su-3adr-black-green-analog-digital-dial-green-resin-strap-mens-watch-shock-and-200m-water-resistant-g1065",
+        "name": "Casio G-Shock GA-2110SU-3ADR Black & Green Analog-Digital Dial Green Resin Strap Men's Watch Shock And 200M Water Resistant G1065",
+        "image": "https://m.media-amazon.com/images/I/71zABZqq78L._SX679_.jpg",
+        "features": "Shock and 200M Water Resistant",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹8,816", "discount": "-10%", "delivery": "₹0", "total": "₹8,816", "link": "https://amzn.to/3YXbE7M" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹9,795", "discount": "N/A", "delivery": "₹0", "total": "₹9,795", "link": "https://bit.ly/3XsWnpG" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹9,799", "discount": "N/A", "delivery": "₹0", "total": "₹9,799", "link": "https://meesho.com/16w06" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹10,200", "discount": "N/A", "delivery": "₹0", "total": "₹10,200", "link": "https://bit.ly/3XyFZd1" }
+        ]
+    },
+    {
+        "id": "being-better-tony-stark-steampunk-metal-round-sunglasses-for-women-men",
+        "name": "Being Better Tony Stark Steampunk Metal Round Sunglasses for Women Men",
+        "image": "https://m.media-amazon.com/images/I/51juzdik41L._SX679_.jpg",
+        "features": "Steampunk Metal Round Sunglasses",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹379", "discount": "-62%", "delivery": "₹0", "total": "₹379", "link": "https://amzn.to/3XzkYHT" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹999", "discount": "-33%", "delivery": "₹0", "total": "₹999", "link": "https://bit.ly/3sZ3tM9" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹1,000", "discount": "N/A", "delivery": "₹0", "total": "₹1,000", "link": "https://meesho.com/16w06" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹1,200", "discount": "N/A", "delivery": "₹0", "total": "₹1,200", "link": "https://bit.ly/3YrRg3n" }
+        ]
+    },
+    {
+        id: "mokobara-the-transit-backpack",
+        "name": "MOKOBARA The Transit Backpack 2.0 30L Premium Nylon15.6\" Unisex Multipurpose Laptop Backpack for Men and Women (Crypto Sunray)",
+        "image": "https://m.media-amazon.com/images/I/615SAenBHFL._SY450_.jpg",
+        "features": "Multipurpose Laptop Backpack for Men and Women",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹5,998", "discount": "-33%", "delivery": "₹0", "total": "₹5,998", "link": "https://www.amazon.in/MOKOBARA-Transit-Backpack-Nylon15-6-Multipurpose/dp/B0BBFHXHSV/ref=sr_1_1_sspa?crid=3ISXBR7C7LQXM" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹5,999", "discount": "40% off", "delivery": "₹0", "total": "₹5,999", "link": "https://www.flipkart.com/mokobara-transit-backpack-30l-30-l/p/itm4755bc5d9a0d0?pid=BKPHYRA3KSY7HNFR" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹5,800", "discount": "32% off", "delivery": "₹0", "total": "₹5,800", "link": "https://www.meesho.com/mokobara-transit-backpack/p/xyz" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹6,100", "discount": "30% off", "delivery": "₹0", "total": "₹6,100", "link": "https://www.myntra.com/mokobara-transit-backpack/p/abc" }
+        ]
+    },
+    {
+        "id": "solid-men-black-running-shorts",
+        "name": "Solid Men Black Running Shorts",
+        "image": "https://m.media-amazon.com/images/I/71+vEi0nwmL._SX522_.jpg",
+        "features": "Running Shorts for Men",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹399", "discount": "-33%", "delivery": "₹0", "total": "₹399", "link": "https://www.amazon.in/GYMIFIC-Sports-Training-Running-Shorts/dp/B0BYSJ7X1W/ref=sr_1_6" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹365", "discount": "51% off", "delivery": "₹0", "total": "₹365", "link": "https://www.flipkart.com/kyk-solid-men-blue-black-running-shorts/p/itm2985a6058b343?pid=SRTGNCWXTA84JE32" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹370", "discount": "40% off", "delivery": "₹0", "total": "₹370", "link": "https://www.meesho.com/solid-men-black-running-shorts/p/xyz" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹350", "discount": "45% off", "delivery": "₹0", "total": "₹350", "link": "https://www.myntra.com/solid-men-black-running-shorts/p/abc" }
+        ]
+    },
+    {
+        "id": "puma-unisex-adult-backpack",
+        "name": "Puma Unisex-Adult Backpack",
+        "image": "https://m.media-amazon.com/images/I/514O5tNUKtL._SX522_.jpg",
+        "features": "Phase Small Backpack",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹619", "discount": "-52%", "delivery": "₹0", "total": "₹619", "link": "https://www.amazon.in/Puma-Unisex-Adult-Phase-Backpack-7548755/dp/B08BP8QG5V/ref=sr_1_3" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹649", "discount": "50% off", "delivery": "₹0", "total": "₹649", "link": "https://www.flipkart.com/puma-phase-backpack-22-l/p/itm344dc3b29e634?pid=BKPFZ4SYVW9UJTYZ" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹630", "discount": "48% off", "delivery": "₹0", "total": "₹630", "link": "https://www.meesho.com/puma-unisex-adult-backpack/p/xyz" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹640", "discount": "47% off", "delivery": "₹0", "total": "₹640", "link": "https://www.myntra.com/puma-unisex-adult-backpack/p/abc" }
+        ]
+    },
+    {
+        "id": "tommy-hilfiger-leather-wallet-for-men",
+        "name": "Tommy Hilfiger Leather Wallet for Men",
+        "image": "https://m.media-amazon.com/images/I/51PKFhV+1QL._SY450_.jpg",
+        "features": "Genuine Leather Wallet for Men",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹2,145", "discount": "-35%", "delivery": "₹0", "total": "₹2,145", "link": "https://www.amazon.in/Tommy-Hilfiger-Stallion-Leather-Global/dp/B0BX9L3541/ref=sr_1_3_sspa" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹2,144", "discount": "35% off", "delivery": "₹0", "total": "₹2,144", "link": "https://www.flipkart.com/tommy-hilfiger-men-casual-brown-genuine-leather-wallet/p/itmf3cd666c00014?pid=WCWGHDZGCD5D3JJD" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹2,120", "discount": "30% off", "delivery": "₹0", "total": "₹2,120", "link": "https://www.meesho.com/tommy-hilfiger-leather-wallet-for-men/p/xyz" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹2,150", "discount": "33% off", "delivery": "₹0", "total": "₹2,150", "link": "https://www.myntra.com/tommy-hilfiger-leather-wallet-for-men/p/abc" }
+        ]
+    },
+    {
+        "id": "yoho-comfortable-boots-for-men-extra-cushioned-footbed-ankle-boot-low-heel-boots-for-men",
+        "name": "YOHO Comfortable Boots for Men | Extra Cushioned Footbed | Ankle Boot Low Heel Boots For Men",
+        "image": "https://m.media-amazon.com/images/I/61ym1grBkHL._SY500_.jpg",
+        "features": "Comfortable Ankle Boots for Men",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹1,599", "discount": "-60%", "delivery": "₹0", "total": "₹1,599", "link": "https://www.amazon.in/YOHO-Comfortable-Cushioned-Friendly-Stylish/dp/B0CJBVVWM2/ref=sr_1_21_sspa" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹1,899", "discount": "52% off", "delivery": "₹0", "total": "₹1,899", "link": "https://www.flipkart.com/yoho-comfortable-boots-men-extra-cushioned-footbed-ankle-boot-low-heel-boots-men/p/itm4741e4b3a432d" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹1,580", "discount": "58% off", "delivery": "₹0", "total": "₹1,580", "link": "https://www.meesho.com/yoho-comfortable-boots-for-men/p/xyz" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹1,650", "discount": "60% off", "delivery": "₹0", "total": "₹1,650", "link": "https://www.myntra.com/yoho-comfortable-boots-for-men/p/abc" }
+        ]
+    }
+]
 
 // Get product ID from URL
 const params = new URLSearchParams(window.location.search);
