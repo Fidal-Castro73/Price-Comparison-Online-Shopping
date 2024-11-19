@@ -33,3 +33,23 @@ document.querySelector('.search-bar button').addEventListener('click', function(
         alert('Product not found.');  // Show a message if the product is not found
     }
 });
+
+const searchInput = document.getElementById('search-input');
+const dealsGrid = document.getElementById('deals-grid');
+const dealLinks = dealsGrid.getElementsByClassName('deal-link');
+
+searchInput.addEventListener('input', function () {
+    const query = searchInput.value.toLowerCase();
+
+    // Loop through all deal items and filter based on query
+    Array.from(dealLinks).forEach(deal => {
+        const itemName = deal.querySelector('.deal-item h3').textContent.toLowerCase();
+        const itemDescription = deal.querySelector('.deal-item p').textContent.toLowerCase();
+
+        if (itemName.includes(query) || itemDescription.includes(query)) {
+            deal.classList.remove('hidden');
+        } else {
+            deal.classList.add('hidden');
+        }
+    });
+});
