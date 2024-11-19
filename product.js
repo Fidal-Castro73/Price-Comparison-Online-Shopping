@@ -520,7 +520,236 @@ const products = [
             { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹1,580", "discount": "58% off", "delivery": "₹0", "total": "₹1,580", "link": "https://www.meesho.com/yoho-comfortable-boots-for-men/p/xyz" },
             { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹1,650", "discount": "60% off", "delivery": "₹0", "total": "₹1,650", "link": "https://www.myntra.com/yoho-comfortable-boots-for-men/p/abc" }
         ]
+    },
+    {
+        "id": "lipstick-rouge",
+        "name": "Matte Lipstick Rouge",
+        "image": "https://m.media-amazon.com/images/I/51qAPi6TUeL._SY355_.jpg",
+        "features": "Long-lasting, Matte Finish, 3.9g.",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹227", "discount": "31%", "delivery": "₹50", "total": "₹277", "link": "https://www.amazon.in/Maybelline-Color-Sensational-Creamy-Scarlet3-9g/dp/B00N6Z09DE/ref=sr_1_3?crid=3TT20BF1M09FN&dib=eyJ2IjoiMSJ9.1O9De03H6wa5ua_1gP_VABl3q5x8uXFBKteUcIksQUR6XXZE-OzXWEvZBJ8PQMqSmB3M5TSiIU0lh3DKJQGgh5vYknZpGA55fhcDF6TWXqJrClreERHONMJxuuyDKG5FpamMiWw9Dsov5JGrbIcpPc0Gev6uY-uUnBAJnwPVr2rgscge4iAHshgwik_KIuVB_pSsFQgn1yLRFeiMF4t6q6NVyJCPwcqAgyOQMz0yYFHzeHKsigQgXW86waa033Pjn8rk1o5XRPBDafzEx5w471Ytkwjgsba05wvnSZoj2Ho.gIbeo4XPzClHTI5LacG2dLkGiihYwwleELY54vp94g0&dib_tag=se&keywords=Matte+Lipstick+Rouge&qid=1731919259&refinements=p_123%3A236425&rnid=91049095031&s=beauty&sprefix=matte+lipstick+rouge%2Caps%2C299&sr=1-3" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹282", "discount": "14%", "delivery": "₹50", "total": "₹332", "link": "https://www.flipkart.com/maybelline-new-york-color-sensational-creamy-matte-lipstick/p/itm9b3629d76cf6c?pid=LSKEPZFJHMBYB4MP&lid=LSTLSKEPZFJHMBYB4MP4BAJWX&marketplace=FLIPKART&q=Matte+Lipstick+Rouge&store=g9b%2Fffi%2Ftv5%2Funa&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=b34fe14d-4cbd-4daa-8fed-b14d70920122.LSKEPZFJHMBYB4MP.SEARCH&ppt=sp&ppn=sp&ssid=f51ai9dkls0000001731919194574&qH=642bf00edf17b1b1" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹250", "discount": "20%", "delivery": "₹30", "total": "₹280", "link": "https://www.meesho.com/dummy-link" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹260", "discount": "18%", "delivery": "₹40", "total": "₹300", "link": "https://www.myntra.com/dummy-link" }
+        ]
+    },
+    {
+        "id": "eyeliner-glam",
+        "name": "Waterproof Eyeliner Glam",
+        "image": "https://m.media-amazon.com/images/I/41zfLER302L._SY741_.jpg",
+        "features": "Precision Tip, Waterproof, 2ml.",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹47", "discount": "8%", "delivery": "₹40", "total": "₹87", "link": "https://www.amazon.in/Eyeliner-Smudge-proof-Water-resistant-Lightweight-sharpener/dp/B0BWFFX7WD/ref=sr_1_4_sspa?crid=HM3UKFRUJHCN&dib=eyJ2IjoiMSJ9.Q0a6Xk3Bw4D90F3S_09xbPvB1DYIN8aBzPMjHY-5kB1xStEyTTvwPwYMwcglaOkGaPLYmSOqvsHKbYNdcCb_XpCX7Qxce6TzRrab9-Oa-ecnxtC434BToYQJWmKNnCjuZwprQaCb8ejjUmQPLH3qCzLNsGh6ocxhETeuS8Az979JBWcG6LX-mbWUsaywjLS6vBRdF4wUAja2XDleAILcGvA--M3SVaOXpW5qpodSQhro_GcCTZ-AVAzA_3l2ZjsswcKia5_hbxxR9lIILvmDngPvavOuplcbdwcNLD2ybnI.1RqjBv_HO_90ExA5nd7fyKHbetmF-M_9JbPEpRSFjM0&dib_tag=se&keywords=Dazller%2BEyeliner%2BPencil%2C%2B1.5g%2C%2BJet%2BBlack%2BMatte%2C%2BSmudge-proof%2C%2BWater-resistant%2C%2BLightweight%2C%2BLong%2Bstay%2C%2BSmooth%2Bgliding%2C%2BBuilt-in%2Bsharpener&nsdOptOutParam=true&qid=1731919770&s=beauty&sprefix=dazller%2Beyeliner%2Bpencil%2C%2B1.5g%2C%2Bjet%2Bblack%2Bmatte%2C%2Bsmudge-proof%2C%2Bwater-resistant%2C%2Blightweight%2C%2Blong%2Bstay%2C%2Bsmooth%2Bgliding%2C%2Bbuilt-in%2Bsharpener%2Cbeauty%2C319&sr=1-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" },
+           {"store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹50", "discount": "7%", "delivery": "₹20", "total": "₹70", "link": "https://www.flipkart.com/eyeliner-glam-waterproof-black/p/itmfglblack"},
+           { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹43", "discount": "5%", "delivery": "₹0", "total": "₹43", "link": "https://www.meesho.com/dazller-eyeliner-pencil-15g-jet-black-matte-smudge-proof-water-resistant-lightweight-long-stay-smooth-gliding-built-in-sharpener/p/59avbg" },
+           {"store": "Myntra", "logo": "myntra-logo.png", "price": "₹65", "discount": "10%", "delivery": "₹30", "total": "₹95", "link": "https://www.myntra.com/eyeliner-glam-waterproof"}   
+        ]
+    },
+    {
+        "id": "foundation-flawless",
+        "name": "Liquid Foundation Flawless",
+        "image": "https://m.media-amazon.com/images/I/41Gd38Yk+oL._SX522_.jpg",
+        "features": "SPF 15, Full Coverage, 30ml.",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹671", "discount": "16%", "delivery": "₹50", "total": "₹721", "link": "https://www.amazon.in/Mamaearth-Hydra-Glow-Foundation-Turmeric-Non-Drying/dp/B0D3F9F5QY/ref=sr_1_fkmr1_2?crid=2E6A393KHUUE&dib=eyJ2IjoiMSJ9.AzdulTu4-F3Y20xdcC_IhRgAW_MC-s4Om6k9n-DLoFwkcB31W4b29I99nk7UYnrcUsPLfjN0Rttmct645ybt85dndSaoQrFq2un3JthadtudA1Z5UjZhggixfn6uR6Ri.rX26V8NNxeetZIMWc-cP7Rd-G9nH7TbGuYLhUh_EGu0&dib_tag=se&keywords=Liquid%2BFoundation%2BFlawless&qid=1731920118&refinements=p_123%3A211925&rnid=91049095031&s=beauty&sprefix=liquid%2Bfoundation%2Bflawless%2Cbeauty%2C252&sr=1-2-fkmr1&th=1" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹686", "discount": "14%", "delivery": "₹60", "total": "₹746", "link": "https://www.flipkart.com/mamaearth-hydra-glow-full-coverage-vitamin-c-turmeric-gives-3x-instant-glow-foundation/p/itm0171cdf51d7db?pid=FNDHYP8Z3P9GFMGE&lid=LSTFNDHYP8Z3P9GFMGEYPIXVV&marketplace=FLIPKART&q=Liquid+Foundation+Flawless&store=g9b%2Fffi%2Fdzu%2Fgru&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=ac6cfe3d-c507-41a0-820f-9307319b3528.FNDHYP8Z3P9GFMGE.SEARCH&ppt=sp&ppn=sp&ssid=sandnub76o0000001731920078376&qH=0cf1eeebbf07b253" },
+	    {"store": "Meesho", "logo": "meesho-logo.png", "price": "₹660", "discount": "15%", "delivery": "₹0", "total": "₹660", "link": "https://www.meesho.com/mamaearth-hydra-glow-foundation/p/abc123"},
+            {"store": "Myntra", "logo": "myntra-logo.png", "price": "₹700", "discount": "12%", "delivery": "₹40", "total": "₹740", "link": "https://www.myntra.com/liquid-foundation-flawless-mamaearth"}
+        ]
+    },
+    {
+        "id": "mascara-volume",
+        "name": "Volumizing Mascara",
+        "image": "https://images.meesho.com/images/products/96288050/qarzm_512.jpg",
+        "features": "Smudge-proof, Blackest Black, 8ml.",
+        "webstores": [                 
+            {"store": "Amazon", "logo": "amazon-logo.png", "price": "₹240", "discount": "12%", "delivery": "₹50", "total": "₹290", "link": "https://www.amazon.in/dp/B09L6QZ3QQ?tag=your-affiliate-link"},
+            {"store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹229", "discount": "10%", "delivery": "₹50", "total": "₹279", "link": "https://www.flipkart.com/mars-double-trouble-mascara-2-step-volumizing-lengthening-jet-black/p/itm4d7c6ee1c76bb"},
+	    { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹252", "discount": "8%", "delivery": "₹0", "total": "₹252", "link": "https://www.meesho.com/mars-2in1-volumizing-and-lengthening-long-lasting-mars-mascara-15-ml-black/p/1lbsc2" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹200", "discount": "33%", "delivery": "₹50", "total": "₹250", "link": "https://www.myntra.com/mascara/mars/mars-double-trouble-mascara---2-step-volumizing--lengthening---jet-black/17301372/buy" }
+        ]
+    },
+    {
+        "id": "blush-pink",
+        "name": "Cheek Blush - Pink Blossom",
+        "image": "https://m.media-amazon.com/images/I/612FdWZyMBL._SX522_.jpg",
+        "features": "Natural Finish, Lightweight, 8g.",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹319", "discount": "20%", "delivery": "₹30", "total": "₹349", "link": "https://www.amazon.in/Beauty-Lumi-Matte-Lightweight-Blendable-Showstopper/dp/B0CR1HYQB9/ref=sr_1_2?crid=ICY1QQPNWMYV&dib=eyJ2IjoiMSJ9.HRwOZEOHp898h2aI-WUD8MgqvADIwIiM6y6PaepBtatUYE9d3uh9K_F7gQTCF0mYzSlEU1nwjBKhD3xv9ibfX3MVm19Yun5ZWqahgnliFO39KIaugPXo21MF3wwoyKmLhDkpNK2TKfcXe5v2ioHBkEXzDqNzazN2Y-cMLcN7ajrb54EvfI21LKFgiH_VlJXxOmSqHOk6HcQgZUChWBwij4-D2CZzR9-CVUIrjPIy502Uj785dwsoejRRUg0QwDUXhsFkurCokVcHcGggxytEWsaMePTvVA3bQu5wYEkgSmw.25RTf9ZzCVU5d0pCexWAntL5IJEXG51JH5qlsUYxuHY&dib_tag=se&keywords=Cheek+Blush+-+Pink+Blossom&nsdOptOutParam=true&qid=1731920585&refinements=p_123%3A654265&rnid=91049095031&s=beauty&sprefix=cheek+blush+-+pink+blossom%2Cbeauty%2C308&sr=1-2" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹319", "discount": "20%", "delivery": "₹50", "total": "₹369", "link": "https://www.flipkart.com/swiss-beauty-cheek-up-blush/p/itm084e63c635667?pid=BLUGWZYBNZKJGRP9&lid=LSTBLUGWZYBNZKJGRP9CHWUOX&marketplace=FLIPKART&q=Cheek+Blush+-+Pink+Blossom&store=g9b%2Fffi%2Fdzu%2Fyk7&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_FFL1aCnal8OVk9p--xPXjDr2iH9x4jhGVjy9YMlehCIun9qXcP_XoJ748FRCCMRJY-l3c_bTuhfFHIz1TOBKpg%3D%3D&ppt=sp&ppn=sp&ssid=yxdiovoc800000001731920534898&qH=f62b18ec35baaaa9" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹299","discount": "25%","delivery": "₹0","total": "₹299", "link": "https://www.meesho.com/cheek-blush/p/1k9d3"},
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹310","discount": "22%","delivery": "₹50","total": "₹360","link": "https://www.myntra.com/cheek-blush/p/abc123"}
+        ]
+    },
+    {
+        "id": "highlighter-gold",
+        "name": "Shimmer Highlighter - Gold Glow",
+        "image": "https://m.media-amazon.com/images/I/610kJL-JT9L._SX522_.jpg",
+        "features": "Illuminating Finish, 18ml.",
+        "webstores": [
+           { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹336", "discount": "25%", "delivery": "₹50", "total": "₹386", "link": "https://www.amazon.in/Beauty-Liquid-Highlighter-Makeup-Illuminating/dp/B07T2DSY48/ref=sr_1_1?crid=GUVQRMJXC5JO&dib=eyJ2IjoiMSJ9.HZsCPRUM2re65Bqjxbs8TVcrBZ5JtyydyC92kAFcqYuh2CgLMpryBmnFk7rZ6ss5Knn7iCVYuidbQlc9CX-5sNkymYNiijgu1lk2-lABYjZo11EIO-WB-YbaPHH-nW5lG-XeKp1wi5tGks0MzpO26D8yNOnwmXsNKt8pDM_iWMGYjeKBFcqxYWilJekLaRIfiKGk4MP7CNvJTSZBhu4GMFF3x0guK59F5rqaMGUlm7Q893V2LTZvjuXWn7aSBuN-.ZGWUUnK29b2LCKpgS-RF5CCVhrgIyD5xKJghf78A4zw&dib_tag=se&keywords=Shimmer%2BHighlighter%2B-%2BGold%2BGlow%2B-%2Bplum&qid=1731921016&refinements=p_123%3A654265&rnid=91049095031&s=beauty&sprefix=shimmer%2Bhighlighter%2B-%2Bgold%2Bglow%2B-%2Bplu%2Cbeauty%2C207&sr=1-1&th=1" },
+           { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹337", "discount": "24%", "delivery": "₹40", "total": "₹377", "link": "https://www.flipkart.com/swiss-beauty-liquid-highlighter-illuminater-drop-glow/p/itm1a9308223e32e?pid=HGLFPYWPYQFUUUGY&lid=LSTHGLFPYWPYQFUUUGYSRKKZU&marketplace=FLIPKART&q=Shimmer+Highlighter+-+Gold+Glow&store=g9b%2Fffi%2Fdzu%2Fy2c&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_fpXAvmmYMyVqbzT7pw_5uBe0umfDmWNy69p5hVGSaxiHv1QktJXRzh88kmofHQS_x2IuA0EGXAcVea5OTQSIOA%3D%3D&ppt=sp&ppn=sp&ssid=xial1b444g0000001731920977552&qH=bbfba7d1101d6680" },
+	   { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹329", "discount": "26%", "delivery": "₹0", "total": "₹329", "link": "https://www.meesho.com/shimmer-highlighter-gold-glow/p/1k9d4" },
+           { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹330", "discount": "25%", "delivery": "₹50", "total": "₹380", "link": "https://www.myntra.com/shimmer-highlighter-gold-glow/p/abc123" }
+        ]
+    },
+    {
+        "id": "nail-polish-red",
+        "name": "Glossy Nail Polish",
+        "image": "https://images.meesho.com/images/products/342279233/qwn00_512.jpg",
+        "features": "Quick-dry, High Gloss Finish, 13ml.",
+        "webstores": [
+      	    { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹150", "discount": "15%", "delivery": "₹30", "total": "₹180", "link": "https://www.amazon.in/dp/B07VY8SZ8Y" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹155", "discount": "13%", "delivery": "₹30", "total": "₹185", "link": "https://www.flipkart.com/colors-queen-affair-matte-nail-lacquer-chip-resisting-long-lasting-quick-dry-polish-01-regal-ruby/p/itm84645045fad7c?pid=NLPGTVZPAUZTJWBA&lid=LSTNLPGTVZPAUZTJWBAJFLNRH&marketplace=FLIPKART&q=Glossy+Nail+Polish+-+Red+Velvet-+miscos+studio&store=g9b%2Fffi%2Fbhh%2Fhb8&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_9qmjz57amAS1ZflsQdrzM9Fk5Lg0tibas2anW85T4hpSqGghhgi96nQaXk5Q9p84_vPtW5iKaF6PWMoR6ZywlQ%3D%3D&ppt=sp&ppn=sp&ssid=k5c9m0xp6o0000001731921359387&qH=2a7467565869508b" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹120", "discount": "33%", "delivery": "₹0", "total": "₹120", "link": "https://www.meesho.com/colors-queen-affair-nail-polish-burnt-maroon-13ml/p/5ns8ch" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹160", "discount": "10%", "delivery": "₹40", "total": "₹200", "link": "https://www.myntra.com/nail-polish" }
+        ]
+    },
+    {
+        "id": "makeup-remover",
+        "name": "Gentle Makeup Remover",
+        "image": "https://m.media-amazon.com/images/I/41W6M9M+HJL._SX522_.jpg",
+        "features": "Oil-free, For Sensitive Skin, 100ml.",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹359", "discount": "10%", "delivery": "₹50", "total": "₹409", "link": "/ref=sr_1_8?crid=1T82EN1D5XN48&dib=eyJ2IjoiMSJ9.IInAeudBSyfPLOKEMm5szLxM3egNXpIfbdQi1Vq81Urb2ejo7eX7NBoXrARQUUG76tS-4juPNRKwSzxuV7SCqZMzSXq9KMhgkOG3TPyRydlMbeAqmDFdEutsMEGpA_qRcJZMK9pQpXXMhQ2PJ6Q_9UrB7nMZ1ThZwfSSXjIYnYGGO0nCRXY08DYFIANA3Cn8MUOTLZjAK5-0zKvKXkD7E6bzxT51FQceZ1UOShcOJRw31cPpy3sLhQ6d8xOG0FkqR92Z5F9v6QAJ5OBG49-W5E7OfOvaGRExBwNgr0eojSI.7PgS2geYpKftQJb-kJ-L7jaH4m4LpxMWHbBU479cr14&dib_tag=se&keywords=Gentle%2BMakeup%2BRemover&qid" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹399", "discount": "12%", "delivery": "₹40", "total": "₹439", "link": "https://www.flipkart.com/bioderma-sensibio-h2o-micellar-water-sensitive-skin-makeup-remover/p/itmda43831b09b81?pid=MURFXCJDWMKWDUZF&lid=LSTMURFXCJDWMKWDUZFDZVXJI&marketplace=FLIPKART&q=Gentle+Makeup+Remover+-+bioderma&store=g9b%2Fffi%2Fdzu%2Fdqh&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=1e7e515c-7456-49fd-8c46-0098d419c6d9.MURFXCJDWMKWDUZF.SEARCH&ppt=sp&ppn=sp&ssid=2n0zib8e9s0000001731921698251&qH=d4f27adfbfeaa12d" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹349", "discount": "5%", "delivery": "₹0", "total": "₹349", "link": "https://www.meesho.com/gentle-makeup-remover/p/1stqfs" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹399", "discount": "10%", "delivery": "₹50", "total": "₹449", "link": "https://www.myntra.com/makeup-remover/brands/gentle-makeup-remover/p/abc12345" }
+        ]
+    },
+    {
+        "id": "primer-smooth",
+        "name": "Silk Finish Primer",
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/primer/n/1/a/20-lumi-silk-lightweight-makeup-primer-for-poreless-smooth-long-original-imahykngfgt7zchg.jpeg?q=70",
+        "features": "Pore Minimizing, Oil Control, 20ml.",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹399", "discount": "20%", "delivery": "₹40", "total": "₹439", "link": "https://www.amazon.in/Colors-Queen-Lumi-Silk-Primer/dp/B08KFP71KL?keywords=Silk+Finish+Primer&qid=1731922402&sr=8-1" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹380", "discount": "23%", "delivery": "₹50", "total": "₹430", "link": "https://www.flipkart.com/colors-queen-lumi-silk-lightweight-makeup-primer-poreless-smooth-long-lasting-20-ml/p/itm9abf318e31024?pid=PRMGYMKGKJRXZFAH&lid=LSTPRMGYMKGKJRXZFAH8KC0QD&marketplace=FLIPKART&q=Silk+Finish+Primer&store=g9b%2Fffi%2Fdzu%2Fsa5&srno=s_1_16&otracker=search&otracker1=search&fm=Search&iid=e25fc84c-d9db-413c-9cdf-02daa4ec7227.PRMGYMKGKJRXZFAH.SEARCH&ppt=sp&ppn=sp&qH=5aecd74db7af262c" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹310", "discount": "38%", "delivery": "₹0", "total": "₹310", "link": "https://www.meesho.com/colors-queen-lumi-silk-primer/p/2hg34j" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹324", "discount": "35%", "delivery": "₹50", "total": "₹374", "link": "https://www.myntra.com/face-primer/colors+queen/colors-queen-lumi-silk-primer---20g/30097333/buy" }
+        ]
+    },
+    {
+        "id": "perfume-bloom",
+        "name": "Floral Perfume - Bloom Essence",
+        "image": "https://m.media-amazon.com/images/I/61oP6MAjPlL._SX522_.jpg",
+        "features": "Long-lasting Fragrance, 50ml.",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹499", "discount": "17%", "delivery": "₹50", "total": "₹549", "link": "https://www.amazon.in/RENEE-Parfum-Premium-Lasting-Perfume/dp/B0B5NBF5RR/ref=sr_1_5?crid=38RFADZ58F0&dib=eyJ2IjoiMSJ9._IraJPiLf-CMjBvuSAtSvUFUUrw1uDrR0hXfvLQN2uoP2AxQMwjutmCvW4SGFl2dBJyoZYmpf7eLBo4FPZvm_eE_ZaqWk8OjBlincoId5CAu16zNAb05eyTqIurxVaCiVrghGvtXw-2y5168sshtwxU0md2GGY4Rp3aRemh1M66UIhCUIskc7sar2gfvYqCSFlJ7zp7U-ZE-t46fEIYOfAOd_u8FuXVYiqILNIdrpn_1B0AfjV5BZjP3tn1hXMcXCHz3dBeyQCP_5BuYJCvvFaaEWx3UEzcpwdrwdWCqv_M.PiCtvctoHF_ikFvxU2Jo7OPd5b_KTzRbAwqqv60ggLA&dib_tag=se&keywords=Floral%2BPerfume%2B-%2BBloom%2BEssence%2Brenee&qid=1731922480&s=beauty&sprefix=floral%2Bperfume%2B-%2Bbloom%2Bessence%2Brenee%2Cbeauty%2C236&sr=1-5&th=1" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹470", "discount": "22%", "delivery": "₹40", "total": "₹510", "link": "https://www.flipkart.com/renee-bloom-essence-floral-perfume-50ml/p/itmreneeperfumebloom" },
+	    { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹473", "discount": "21%", "delivery": "₹0", "total": "₹473", "link": "https://www.meesho.com/renee-eau-de-parfum-bloom-50ml-premium-long-lasting-luxury-perfume-notes-of-almond-scent-for-all-occasions/p/3yfznj" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹450", "discount": "25%", "delivery": "₹30", "total": "₹480", "link": "https://www.myntra.com/renee-perfume-bloom-essence-50ml" }
+         ]
+    },
+    {
+        "id": "compact-powder-glow",
+        "name": "Compact Powder - Natural Glow",
+        "image": "https://m.media-amazon.com/images/I/4173kwipRPL._SX300_SY300_QL70_FMwebp_.jpg",
+        "features": "Nourishing, SPF 15, 4.5g.",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹164", "discount": "27%", "delivery": "₹40", "total": "₹204", "link": "https://amzn.in/d/j5ZGza8" },
+            { "store": "Flipkart", "logo": "flipkart.png", "price": "₹164", "discount": "27%", "delivery": "₹50", "total": "₹214", "link": "https://www.flipkart.com/faces-canada-weightless-stay-matte-powder-oil-control-compact/p/itm437259dfc481b?pid=CMPFJX6FY6K5N7TE&lid=LSTCMPFJX6FY6K5N7TEA6TDPS&marketplace=FLIPKART&q=compact+powder&store=g9b%2Fffi%2Fdzu%2Fypp&spotlightTagId=BestsellerId_g9b%2Fffi%2Fdzu%2Fypp&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=571206ad-3712-4e9d-9927-46f82c0ff884.CMPFJX6FY6K5N7TE.SEARCH&ppt=sp&ppn=sp&ssid=7strl9me0g0000001731944814465&qH=28d1963028c0ec9a" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹160", "discount": "29%", "delivery": "₹0", "total": "₹160", "link": "https://www.meesho.com/faces-canada-weightless-stay-matte-finish-compact-powder-natural-02-9-g/p/3716gq" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹171", "discount": "24%", "delivery": "₹40", "total": "₹212", "link": "https://www.myntra.com/compact/faces+canada/faces-canada-weightless-stay-matte-compact-spf20-with-vitamin-e--shea-butter---natural-02/10924310/buy" }
+        ]
+    },
+    {
+        "id": "makeup-brush-kit",
+        "name": "Professional Makeup Brush Kit",
+        "image": "https://m.media-amazon.com/images/I/81r6KIx6YyL._SX522_.jpg",
+        "features": "6-piece set, Soft Bristles, Travel Case Included.",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹714", "discount": "35%", "delivery": "₹40", "total": "₹750", "link": "https://amzn.in/d/1CbVesx" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹1,099", "discount": "12%", "delivery": "₹50", "total": "₹1,149", "link": "https://www.flipkart.com/swiss-beauty-premium-synthetic-bristle-professional-face-eye-brushes-set-6/p/itmd9a9b9050869c?pid=BARFXCB6TCP86YK3&lid=LSTBARFXCB6TCP86YK37OB7BO&marketplace=FLIPKART&q=Professional+Makeup+Brush+Kit&store=g9b%2Fffi&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=955cd185-5c69-489e-8f2e-084f07789aec.BARFXCB6TCP86YK3.SEARCH&ppt=sp&ppn=sp&qH=459159c40c038c67" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹325", "discount": "3%", "delivery": "₹0", "total": "₹325", "link": "https://www.meesho.com/professional-makeup-brush-for-woman-premium-brush-easy-to-hold-precise-application-for-face-eyesbrows-cruelty-free-uniquely-designed-super-soft-bristles6pcs/p/7a8c3k" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹695", "discount": "42%", "delivery": "₹40", "total": "₹737", "link": "https://www.meesho.com/professional-makeup-brush-for-woman-premium-brush-easy-to-hold-precise-application-for-face-eyesbrows-cruelty-free-uniquely-designed-super-soft-bristles6pcs/p/7a8c3k" },
+        ]
+    },
+    {
+        "id": "bb-cream-fairness",
+        "name": "BB Cream - Instant Fairness",
+        "image": "https://m.media-amazon.com/images/I/51pcr85LYGL._SX522_.jpg",
+        "features": "All-in-one, SPF 30, 30ml.",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹240", "discount": "13%", "delivery": "₹40", "total": "₹280", "link": "https://amzn.in/d/2l66H85" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹315", "discount": "5%", "delivery": "₹50", "total": "₹365", "link": "https://www.flipkart.com/pond-s-bb-cream-instant-spot-coverage-light-make-up-glow-30g-30g/p/itm94d3f54622025?pid=FRNGVZF8TMNZSVZH&lid=LSTFRNGVZF8TMNZSVZHEKT5Z8&marketplace=FLIPKART&q=BB+Cream+-+Instant+Fairness&store=g9b%2Fema%2F5la&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=ac06092d-2522-45fb-94a2-5945389f6526.FRNGVZF8TMNZSVZH.SEARCH&ppt=sp&ppn=sp&ssid=k5zfe4mw8w0000001731946198516&qH=14a3f1c1c88e62fa" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹325", "discount": "3%", "delivery": "₹0", "total": "₹325", "link": "htts://www.mesho.com/bb-cream-instantfairness/" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹173", "discount": "42%", "delivery": "₹40", "total": "₹213", "link": "https://www.myntra.com/bb-and-cc-cream/ponds/ponds-spf-30-pa-instant-spot-coverage-bb--cream-with-vitamin-b3-30-g---natural/14470528/buy" },
+        ]
+    },
+    {
+        "id": "kajal-smudgeproof",
+        "name": "Smudge-proof Kajal",
+        "image": "https://m.media-amazon.com/images/I/413Ct7TGLFL._SX522_.jpg",
+        "features": "Bold Black, 12-hour Stay, 0.35g.",
+        "webstores": [
+            { "store": "Amazon", "logo": "amazon-logo.png", "price": "₹198", "discount": "6%", "delivery": "₹30", "total": "₹228", "link": "https://www.amazon.in/Eyeconic-Pencil-Waterproof-Smudgeproof-Lasting/dp/B09L7QVYTZ/ref=sr_1_1?crid=11UIKVXM1UFFJ&dib=eyJ2IjoiMSJ9.U4S2fPk2Y9daaMxqZj9rYNej33KGLJuLzCyqGZRm5u_F3MzihIIFgoJ92Q0OysEZPiulrtbA175KhcktO3yklmmwBOlB3jcwPmGdOvKdHQ6ToEH9pdRXAhAJCg7HZ6EzgqHEhPJbFRvrxq_OK8aazdgOSRu4RDjglvbUUPwLpw90JZwmjX-Y2XClJjA2x4K_eA8Qc00LyNIcGFuPBjdQ7kzY8Zjp4FXVrxgqRTlGfYmaiUO86XhG-3eq0ShXYQWhOzNmnkSAjqGhw90IUAiEgLx9XR7hYRQEfVHntvNPU68.i-GGAyz1xzkODCwaIqJHR6Gg5nDM9Fk0o7abqgdCwto&dib_tag=se&keywords=Smudge-proof+Kajal&qid=1731922662&refinements=p_123%3A456549&rnid=91049095031&s=beauty&sprefix=smudge-proof+kajal%2Cbeauty%2C332&sr=1-1" },
+            { "store": "Flipkart", "logo": "flipkart-logo.png", "price": "₹179", "discount": "10%", "delivery": "₹20", "total": "₹199", "link": "https://www.flipkart.com/lakm-eyeconic-smudgeproof-waterproof-kajal-pencil-deep-black-0-35-g/p/itm764ced6bdfd47?pid=KJLH43B5CEDGZTKD&lid=LSTKJLH43B5CEDGZTKD4RHN37&marketplace=FLIPKART&q=Smudge-proof+Kajal&store=g9b%2Fffi%2Fttr%2Fdbs&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=07765e05-8c57-4c01-a8b9-058bb37f7c38.KJLH43B5CEDGZTKD.SEARCH&ppt=sp&ppn=sp&ssid=k9bg78340w0000001731922630042&qH=8d87757d6982d220" },
+            { "store": "Meesho", "logo": "meesho-logo.png", "price": "₹169", "discount": "15%", "delivery": "₹0", "total": "₹169", "link": "https://www.meesho.com/lakme-eyeconic-kajal-smudge-proof-long-lasting/p/1jhy68" },
+            { "store": "Myntra", "logo": "myntra-logo.png", "price": "₹185", "discount": "8%", "delivery": "₹40", "total": "₹225", "link": "https://www.myntra.com/kajal/lakme/lakme-eyeconic-kajal---black-035g/1234567/buy" }
+        ]
+    },
+    {
+        id: "air-max-solo",
+        name: "Air Max Solo Running Shoes For Men (White, 8)",
+        image: "https://m.media-amazon.com/images/I/61mhTbrh+WL._SX500_.jpg",
+        features: "Lightweight Design, Durable Build, Comfortable Fit",
+        webstores: [
+            { store: "Amazon", logo: "amazon-logo.png", price: "₹5,217", discount: "40%", delivery: "₹0", total: "₹5,217", link: "https://www.amazon.in/Nike-Running-Shoes-Solo-White-White-White-White-Dx3666-104-8Uk/dp/B0CZHR1VDC/ref=sr_1_48" },
+            { store: "Flipkart", logo: "flipkart-logo.png", price: "₹6,086", discount: "30%", delivery: "₹0", total: "₹6,086", link: "https://www.flipkart.com/nike-air-max-solo-running-shoes-men/p/itm5c54bdbccbcb3" },
+            { store: "Meesho", logo: "meesho-logo.png", price: "-", discount: "-", delivery: "-", total: "-", link: "-" },
+            { store: "Myntra", logo: "myntra-logo.png", price: "₹8,695", discount: "15%", delivery: "₹0", total: "₹8,695", link: "https://www.myntra.com/casual-shoes/nike/nike-air-max-solo-mens-shoes/28511748/buy" }
+        ]
+    },
+    {
+        id: "adidas-ultraboost-22",
+        name: "Adidas Ultraboost 22 Core Black",
+        image: "https://m.media-amazon.com/images/I/71Zp0NeBxZL._SX500_.jpg",
+        features: "Responsive Cushioning, Lightweight Design, Stylish Look",
+        webstores: [
+            { store: "Amazon", logo: "amazon-logo.png", price: "₹7,410", discount: "61%", delivery: "₹0", total: "₹7,410", link: "https://www.amazon.in/Adidas-Women-Textile-Ultraboost-Running/dp/B0BPD4R7HZ/ref=sr_1_2" },
+            { store: "Flipkart", logo: "flipkart-logo.png", price: "₹9,689", discount: "49%", delivery: "₹0", total: "₹9,689", link: "https://www.flipkart.com/adidas-ultraboost-23-running-shoes-men/p/itm922a3a5c9c913" },
+            { store: "Meesho", logo: "meesho-logo.png", price: "-", discount: "-", delivery: "-", total: "-", link: "-" },
+            { store: "Myntra", logo: "myntra-logo.png", price: "₹7,599", discount: "60%", delivery: "₹0", total: "₹7,599", link: "https://www.myntra.com/sports-shoes/adidas/adidas-women-woven-design-round-toe-ultraboost-light-running-shoes/21032628/buy" }
+        ]
+    },
+    {
+        id: "carbonado-rock-sling-bag",
+        name: "Carbonado Rock Unisex Hardshell Sling Bag",
+        image: "https://m.media-amazon.com/images/I/51JvD1HVPwL._SY500_.jpg",
+        features: "RFID Blocker, Durable Hardshell, Compact Design",
+        webstores: [
+            { store: "Amazon", logo: "amazon-logo.png", price: "₹1,701", discount: "10%", delivery: "₹0", total: "₹1,701", link: "https://www.amazon.in/Carbonado-Hardshell-Sling-Travel-Commute/dp/B0CKBYZ4NP/ref=sr_1_1_sspa" },
+            { store: "Flipkart", logo: "flipkart-logo.png", price: "₹1,709", discount: "30%", delivery: "₹0", total: "₹1,709", link: "https://www.flipkart.com/carbonado-rock-unisex-hardshell-sling-bag-travel-daily-commute-rfid-blocker-cross-body/p/itm940c1191e187b" },
+            { store: "Meesho", logo: "meesho-logo.png", price: "-", discount: "-", delivery: "-", total: "-", link: "-" },
+            { store: "Myntra", logo: "myntra-logo.png", price: "₹2,190", discount: "-", delivery: "₹0", total: "₹2,190", link: "https://www.myntra.com/waist-pouch/carbonado/carbonado-hardshell-waist-pouch/28276036/buy" }
+        ]
+    },
+    {
+        id: "rayban-pilot-sunglasses",
+        name: "Ray-Ban Unisex UV Protected Green Lens Pilot Sunglasses",
+        image: "https://m.media-amazon.com/images/I/51iEZoPcpuL._SX679_.jpg",
+        features: "UV Protection, Durable Frame, Stylish Design",
+        webstores: [
+            { store: "Amazon", logo: "amazon-logo.png", price: "₹6,379", discount: "6%", delivery: "₹0", total: "₹6,379", link: "https://www.amazon.in/Ray-Ban-Unisex-Protected-Green-Sunglasses/dp/B00KVC10H4/ref=sr_1_11" },
+            { store: "Flipkart", logo: "flipkart-logo.png", price: "₹7,009", discount: "10%", delivery: "₹0", total: "₹7,009", link: "https://www.flipkart.com/ray-ban-aviator-sunglasses/p/itmf3yhfpc9gzzyq" },
+            { store: "Meesho", logo: "meesho-logo.png", price: "-", discount: "-", delivery: "-", total: "-", link: "-" },
+            { store: "Myntra", logo: "myntra-logo.png", price: "₹6,735", discount: "5%", delivery: "₹0", total: "₹6,735", link: "https://www.myntra.com/sunglasses/ray-ban/ray-ban-unisex-uv-protected-lens-pilot-sunglasses---0rb3026iw202762/255559/buy" }
+        ]
+    },
+    {
+        id: "tommy-hilfiger-polo",
+        name: "Tommy Hilfiger Modern Essentials Slim Fit Polo Shirt",
+        image: "https://m.media-amazon.com/images/I/61WFnYMB0xL._SX522_.jpg",
+        features: "Soft Fabric, Slim Fit, Classic Style",
+        webstores: [
+            { store: "Amazon", logo: "amazon-logo.png", price: "₹3,999", discount: "-", delivery: "₹0", total: "₹3,999", link: "https://www.amazon.in/Tommy-Hilfiger-Collar-Sleeves-T-Shirt/dp/B0D7PV33SC/ref=sr_1_41" },
+            { store: "Flipkart", logo: "flipkart-logo.png", price: "₹3,219", discount: "30%", delivery: "₹0", total: "₹3,219", link: "https://www.flipkart.com/tommy-hilfiger-modern-essentials-slim-fit-polo-shirt/p/itmf3yhfpc9gzzyq" },
+            { store: "Meesho", logo: "meesho-logo.png", price: "-", discount: "-", delivery: "-", total: "-", link: "-" },
+            { store: "Myntra", logo: "myntra-logo.png", price: "₹3,799", discount: "5%", delivery: "₹0", total: "₹3,799", link: "https://www.myntra.com/sunglasses/ray-ban/ray-ban-unisex-uv-protected-lens-pilot-sunglasses---0rb3026iw202762/255559/buy" }
+        ]
     }
+
 ]
 
 // Get product ID from URL
