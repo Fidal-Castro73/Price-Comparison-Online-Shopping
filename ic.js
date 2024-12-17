@@ -75,9 +75,9 @@ function getComparison() {
             </table>
         </div>
 
-        <!-- Delivery Time Comparison -->
+        <!-- Discount Comparison -->
         <div class="table3">
-            <h3>Delivery Time Comparison</h3>
+            <h3>Discount Comparison</h3>
             <br>
             <table>
                 <thead>
@@ -90,7 +90,7 @@ function getComparison() {
                 <tbody>
                     <tr>
                         <td>Amazon</td>
-                        <td>7 Days</td>
+                        <td>10%</td>
                         <td>
                             <div class="progress">
                                 <div class="progress-bar" style="width: 50%;"></div>
@@ -99,7 +99,7 @@ function getComparison() {
                     </tr>
                     <tr>
                         <td>Flipkart</td>
-                        <td>5 Days</td>
+                        <td>12%</td>
                         <td>
                             <div class="progress">
                                 <div class="progress-bar" style="width: 70%;"></div>
